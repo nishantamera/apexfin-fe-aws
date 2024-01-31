@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.dashboard-section-ui{
+    background-color: #FAFBFC;
+  width: '100%';
+  height: 100vh;
+  padding: 30px;
+  margin: 0; /* Ensure no default margin */
+}
+
+
+
+.sec-one-name{
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+.sec-one-Welc{
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.sec-one-Welc-last-log{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  color: #313131;
+}
+
+
+/* Section Two */
+.section-two-dashboard{
+  margin-top: 20px;
+}
+
+.card-gred{
+  background-color: black;
+  
+}
+
+/* Card Gred One */
+#card-gred-one{
+  padding: 5px;
+  background-image: linear-gradient(to right, #00D2FF , #3A7BD5);
+  
+  border-radius: 5px;
+  margin: auto;
+}
+
+#card-gred-one-h1{
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight:500;
+  font-size: 18px;
+}
+#card-gred-one-p1{
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight:700;
+  font-size: 20px;
+}
+
+#card-gred-one:hover{
+  padding: 5px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #00D2FF , #1c314f);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* -----XX--- */
+
+
+
+/* Card Gred One */
+#card-gred-two{
+  padding: 5px;
+  background-image: linear-gradient(to right, #F2709C , #FF9472);
+  border-radius: 5px;
+  margin: auto;
+}
+
+#card-gred-two-h1{
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight:500;
+  font-size: 18px;
+}
+#card-gred-two-p1{
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight:700;
+  font-size: 20px;
+}
+
+#card-gred-two:hover{
+  padding: 5px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #9d0b3c , #FF9472);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 10px;
+  margin: auto;
+}
+/* -----XX--- */
+
+
+
+
+/* Section Three */
+.deposits{
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+
+#card-white-three{
+  background-color: #fff;
+  
+}
+#card-white-three:hover{
+  box-shadow: 0 14px 28px rgba(123, 123, 123, 0.25), 0 10px 10px rgba(118, 118, 118, 0.22);
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.card-white-account-name{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    color: #292929;
+}
+.card-white-account-number{
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #292929;
+}
+
+
+.card-white-account-amount{
+  font-size: 20px;
+  color: #22C9B7;
+  text-align: right;
+  font-family:'Poppins';
+  font-weight:700
+}
+.card-white-account-bal{
+  text-align: right;
+  font-size: 12px;
+  font-family:'Poppins';
+  font-weight:300
+}
+/* --------XXX----- */
+
+
+/* Cards */
+
+#card-gred-card{
+  padding: 5px;
+  background-image: linear-gradient(to right, #515151 , #000000);
+  border-radius: 5px;
+  height: 200px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin: auto;
+}
+
+.card-gred-card-logo{
+  margin-top: 20px;
+}
+
+#card-gred-card:hover{
+  padding: 5px;
+  background-image: linear-gradient(to right, #241c1c , #430808);
+  border-radius: 5px;
+  height: 200px;
+  
+  margin: auto;
+  cursor: pointer;
+}
+
+#id{
+  margin-top: 30px;
+}
+
+
+.card-card-account-name{
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  color: #ffffff;
+}
+.card-card-account-number{
+font-family: 'Poppins';
+font-weight: 600;
+color: #ffffff;
+}
+
+
+.card-card-account-amount{
+font-size: 20px;
+color: #22C9B7;
+text-align: end;
+font-family:'Poppins';
+font-weight:700;
+margin-top: -10px;
+}
+.card-card-account-bal{
+text-align: right;
+font-size: 12px;
+font-family:'Poppins';
+font-weight:300;
+color:#fff
+}
+
+
+.margin-g{
+  margin-top: 20px;
+}
+
+
+.investment-title{
+  margin-top: 20px;
+  font-family:'Poppins';
+font-weight:500;
+color: #fff;
+font-size: 25px;
+}
+
+.margin-h{
+  margin-top: 30px;
+}
+
+.last-login{
+  font-size: 13px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.margin-s{
+  margin-top: -10px;
+}
+/* ---XX--- */
+

@@ -1,0 +1,246 @@
+
+
+/* Cards */
+
+#card-gred-card-summ{
+  width: 450px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #515151 , #000000);
+    border-radius: 5px;
+    height: 220px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 0px;
+  }
+
+  #card-gred-card-summ:hover{
+    width: 450px;
+    padding: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #241c1c , #430808);
+    border-radius: 5px;
+    height: 220px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 0px;
+  }
+  
+  .card-gred-card-logo-summ{
+    margin-top: 10px;
+  }
+  
+  #id-summ{
+    margin-top: 20px;
+  }
+  
+  
+  .card-card-account-name-summ{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .card-card-account-number-summ{
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: #ffffff;
+  }
+  
+  
+  .card-card-account-amount-summ{
+  font-size: 20px;
+  color: #22C9B7;
+  text-align: end;
+  font-family:'Poppins';
+  font-weight:500;
+  margin-top: -10px;
+  }
+  .card-card-account-bal-summ{
+  text-align: right;
+  font-size: 12px;
+  font-family:'Poppins';
+  font-weight:300;
+  color:#fff
+  }
+  
+  
+  .margin-g-summ{
+    margin-top: 5px;
+  }
+
+
+  .card-card-account-name-summ-hid{
+    visibility: hidden;
+  }
+
+
+  .card-card-account-amount-summ-date{
+    font-size: 10px;
+    color: #ffffff;
+    text-align: end;
+    font-family:'Poppins';
+    font-weight:300;
+    margin-top: -10px;
+    }
+
+
+
+    .credit-card-container {
+      display: flex;
+      overflow-x: auto;  
+      white-space: nowrap;  
+    }
+
+
+    /* #credit-card-scroll-row{
+      overflow-x: auto;
+      white-space: nowrap;
+    } */
+
+    /* #credit-card-scroll-col{
+      display: inline-block;
+    } */
+
+    .horizontal-scroll-container {
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    
+    .horizontal-scroll-content {
+      display: inline-block; /* or use "inline-flex" or "inline-grid" based on your layout needs */
+    }
+
+
+
+    .para-graph-card-tran{
+      font-family:'Poppins';
+      font-weight:600;
+    }
+    
+#credit-card-scroll-row {
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-bottom: 15px; /* Add some bottom padding to make space for scrollbar */
+}
+
+#credit-card-scroll-col {
+  display: inline-block;
+  margin-right: 10px; /* Add some right margin between cards */
+  cursor: pointer;
+}
+
+/* .codl{
+  padding: 30px;
+} */
+
+.prev,
+.next {
+  /* position: absolute;
+  top: 50%;
+  transform: translateY(-20%); */
+  /* padding: 10px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer; */
+}
+
+.prev {
+  background-color: #000000;
+}
+
+.next {
+  background-color: #000000;
+}
+
+
+.slider-card-cen{
+  justify-self: center;
+  align-items: center; 
+/* margin-left: 150px; */
+}
+
+
+.sli-wid{
+  
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: red!important;
+}
+
+.slide{
+  /* position: fixed;
+  justify-content: center;
+  align-items: center;  */
+  width: 80%; /* Set the desired width */
+  margin: auto; /* Center the slider on the page */
+  left: -30px;
+  top: 0;
+  
+ 
+  z-index: 0.1;
+}
+
+
+
+.restric{
+  width: 565px;
+}
+
+.horizontal-scroll-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.horizontal-scroll-content {
+  display: inline-block;
+  margin-right: 10px; /* Add some margin between cards if needed */
+  cursor: pointer;
+}
+
+
+.card-span{
+  font-size: 12px;
+  font-family:'Poppins';
+  font-weight: 400;
+  color: #430808;
+}
+
+
+
+
+
+
+
+@media (max-width:991px) {
+
+
+  .sli-wid{
+  
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+  }
+
+
+  
+.slide{
+  /* width: 20%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center; */
+  width: 80%; 
+  margin: auto; 
+  position: fixed;
+  top: 0;
+  left: 25%;
+  transform: translateX(-50%);
+}
+
+
+
+}

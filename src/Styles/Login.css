@@ -1,0 +1,160 @@
+
+
+/* --Login Hero Section-- */
+
+
+/*  */
+/* .hero-section{
+    background-color: #fff;
+    height: 100%;
+    flex: 1;
+} */
+
+/* .hero-div{
+    position: relative;
+} */
+
+/* .hero-div-next{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+/* .hero-img{
+    width: 550px;
+} */
+
+/* .hero-content{
+    margin-top: 180px;
+} */
+
+
+.login-btn-hero{
+    width: 150px;
+    padding: 8px;
+    background-color: #22C9B7;
+    border: 0px ;
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+
+
+
+.log-content-h1{
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 30px;
+    color: #272525;
+    margin-top: 8px;
+}
+.log-content-p{
+    width: 500px;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-top: -5px;
+    color: #505050;
+}
+
+
+.hero-content-h1-colord{
+    color: #22C9B7;
+}
+
+
+.log-content{
+    margin-top: 140px;
+}
+
+
+
+
+/* Input Box */
+
+.input-box{
+    padding: 12px;
+    width: 350px;
+    padding-left: 25px;
+    
+    background: url('../Images/userIcon.png') no-repeat left;
+    background-size: 20px;
+}
+
+.icon {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+  }
+
+
+
+  /* input[type="text"] {
+   
+  } */
+
+
+.input-box-username{
+    width: 80%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    /* margin: 0px 0; */
+    outline: none;
+    padding: 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    padding-left: 50px;
+    background: url("../Images/userIcon.png") no-repeat 5%;
+    background-size: 20px;
+}
+
+
+.input-box-pin{
+    width: 80%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    /* margin: 0px 0; */
+    outline: none;
+    padding: 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    padding-left: 50px;
+    background: url("../Images/lock.png") no-repeat 5%;
+    background-size: 20px;
+}
+
+
+  input[type="text"]:focus {
+    border-color: #22C9B7;
+    box-shadow: 0 0 2px 0 #22C9B7;
+  }
+
+
+
+  .forgot-pin{
+    font-family: 'Inter';
+    margin-top: 35px;
+    font-weight: 600;
+    
+  }
+
+
+
+  .sign-up{
+    font-family: 'Inter';
+    font-weight: 600;
+
+  }
+ 
+
+  .sign-two{
+    color: #22C9B7;
+  }
+
+
+/* ----X---- */
+
+/* ---------X----------- */

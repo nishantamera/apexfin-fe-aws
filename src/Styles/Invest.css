@@ -1,0 +1,74 @@
+#card-save-gred-three{
+      padding: 5px;
+    background-image: linear-gradient(to right, #00D2FF , #3A7BD5);
+    border-radius: 5px;
+}
+#card-save-gred-three:hover{
+  padding: 5px;
+background-image: linear-gradient(to right, #2c4146 , #3A7BD5);
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+#card-save-gred-four{
+      padding: 5px;
+    background-image: linear-gradient(to right, #F857A6 , #FF5858);
+    border-radius: 5px;
+}
+#card-save-gred-four:hover{
+  padding: 5px;
+  cursor: pointer;
+background-image: linear-gradient(to right, #571e39 , #FF5858);
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+border-radius: 5px;
+}
+
+
+#card-save-gred-five{
+      padding: 5px;
+    background-image: linear-gradient(to right, #4B6CB7 , #182848);
+    border-radius: 5px;
+}
+#card-save-gred-five:hover{
+  padding: 5px;
+  cursor: pointer;
+background-image: linear-gradient(to right, #1542ac , #182848);
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+border-radius: 5px;
+}
+
+#card-save-gred-six{
+      padding: 5px;
+    background-image: linear-gradient(to right, #E43A15 , #E65245);
+    border-radius: 5px;
+}
+#card-save-gred-six:hover{
+  padding: 5px;
+  cursor: pointer;
+background-image: linear-gradient(to right, #4b1003 , #E65245);
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+border-radius: 5px;
+}
+
+#card-save-gred-seven{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#card-save-gred-seven:hover{
+  padding: 5px;
+  background-color: #c4c4c4;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ingest-data-btn{
+  border: 0px;
+  margin-left: 5px;
+  background-color: #FF5858;
+  color: #fff;
+}
+

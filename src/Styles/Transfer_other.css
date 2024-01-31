@@ -1,0 +1,82 @@
+.transfer-btn{
+    padding: 5px;
+    border: 0px ;
+    background-color: #22C9B7;
+    color: #fff;
+    width: 80px;
+    font-family: 'Poppins';
+}
+
+
+
+.transfer-btn-add{
+    padding: 5px;
+    border: 0px ;
+    color: #fff;
+    background-color: #000000;
+    font-size: 10px;
+    width: 80px;
+    font-family: 'Poppins';
+    margin-bottom: 8px;
+}
+
+.transfer-btn:hover{
+    padding: 5px;
+    border: 0px ;
+    background-color: #1a5f58;
+    color: #fff;
+    width: 80px;
+    font-family: 'Poppins';
+}
+
+
+.transfer-btn-delete{
+    padding: 5px;
+    border: 0px ;
+    background-color: #000000;
+    color: #fff;
+    width: 80px;
+    margin-left:10px ;
+    font-family: 'Poppins';
+}
+
+
+
+.form-transfer{
+    padding: 10px;
+}
+
+.form-heading{
+    font-size: 26px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+
+.input-box-transfer{
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.transfer-btn-new{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px ;
+    background-color: #000000;
+    color: #fff;
+    /* width: 120px; */
+    margin-top: 30px;
+    font-family: 'Poppins'; 
+}
+
+
+.pay-box-pa:hover{
+    cursor: pointer;
+}
+
+.payii{
+    color: #ff4d00;
+}
